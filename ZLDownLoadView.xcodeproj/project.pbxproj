@@ -15,6 +15,9 @@
 		A4FFF71D1E544C8B000128CA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4FFF71B1E544C8B000128CA /* LaunchScreen.storyboard */; };
 		A4FFF7281E544C8B000128CA /* ZLDownLoadViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A4FFF7271E544C8B000128CA /* ZLDownLoadViewTests.m */; };
 		A4FFF7331E544C8B000128CA /* ZLDownLoadViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A4FFF7321E544C8B000128CA /* ZLDownLoadViewUITests.m */; };
+		A4FFF7431E544D66000128CA /* UIView+ZLBorderPath.m in Sources */ = {isa = PBXBuildFile; fileRef = A4FFF7421E544D66000128CA /* UIView+ZLBorderPath.m */; };
+		A4FFF7461E544D8B000128CA /* ZLStartButton.m in Sources */ = {isa = PBXBuildFile; fileRef = A4FFF7451E544D8B000128CA /* ZLStartButton.m */; };
+		A4FFF7491E544DA7000128CA /* ZLDownloadButton.m in Sources */ = {isa = PBXBuildFile; fileRef = A4FFF7481E544DA7000128CA /* ZLDownloadButton.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,12 @@
 		A4FFF72E1E544C8B000128CA /* ZLDownLoadViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZLDownLoadViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4FFF7321E544C8B000128CA /* ZLDownLoadViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZLDownLoadViewUITests.m; sourceTree = "<group>"; };
 		A4FFF7341E544C8B000128CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4FFF7411E544D66000128CA /* UIView+ZLBorderPath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ZLBorderPath.h"; sourceTree = "<group>"; };
+		A4FFF7421E544D66000128CA /* UIView+ZLBorderPath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ZLBorderPath.m"; sourceTree = "<group>"; };
+		A4FFF7441E544D8B000128CA /* ZLStartButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLStartButton.h; sourceTree = "<group>"; };
+		A4FFF7451E544D8B000128CA /* ZLStartButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLStartButton.m; sourceTree = "<group>"; };
+		A4FFF7471E544DA7000128CA /* ZLDownloadButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLDownloadButton.h; sourceTree = "<group>"; };
+		A4FFF7481E544DA7000128CA /* ZLDownloadButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLDownloadButton.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +114,7 @@
 				A4FFF7111E544C8A000128CA /* AppDelegate.m */,
 				A4FFF7131E544C8A000128CA /* ViewController.h */,
 				A4FFF7141E544C8A000128CA /* ViewController.m */,
+				A4FFF7401E544CD9000128CA /* ZLDownLoad */,
 				A4FFF7161E544C8A000128CA /* Main.storyboard */,
 				A4FFF7191E544C8A000128CA /* Assets.xcassets */,
 				A4FFF71B1E544C8B000128CA /* LaunchScreen.storyboard */,
@@ -138,6 +148,19 @@
 				A4FFF7341E544C8B000128CA /* Info.plist */,
 			);
 			path = ZLDownLoadViewUITests;
+			sourceTree = "<group>";
+		};
+		A4FFF7401E544CD9000128CA /* ZLDownLoad */ = {
+			isa = PBXGroup;
+			children = (
+				A4FFF7411E544D66000128CA /* UIView+ZLBorderPath.h */,
+				A4FFF7421E544D66000128CA /* UIView+ZLBorderPath.m */,
+				A4FFF7441E544D8B000128CA /* ZLStartButton.h */,
+				A4FFF7451E544D8B000128CA /* ZLStartButton.m */,
+				A4FFF7471E544DA7000128CA /* ZLDownloadButton.h */,
+				A4FFF7481E544DA7000128CA /* ZLDownloadButton.m */,
+			);
+			path = ZLDownLoad;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -277,8 +300,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				A4FFF7151E544C8A000128CA /* ViewController.m in Sources */,
+				A4FFF7461E544D8B000128CA /* ZLStartButton.m in Sources */,
+				A4FFF7431E544D66000128CA /* UIView+ZLBorderPath.m in Sources */,
 				A4FFF7121E544C8A000128CA /* AppDelegate.m in Sources */,
 				A4FFF70F1E544C8A000128CA /* main.m in Sources */,
+				A4FFF7491E544DA7000128CA /* ZLDownloadButton.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

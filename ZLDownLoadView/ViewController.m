@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "ZLDownloadButton.h"
 
 @interface ViewController ()
 
@@ -17,6 +18,12 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+    self.view.backgroundColor = [UIColor whiteColor];
+    ZLDownloadButton *button = [[ZLDownloadButton alloc] initWithFrame:CGRectMake(0, 0, 160, 160)];
+    button.center = self.view.center;
+    [self.view addSubview:button];
+    
 }
 
 
